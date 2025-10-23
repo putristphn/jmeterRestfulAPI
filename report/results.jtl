@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1761231456790,733,GET - List Objects,200,OK,Thread Group 1-1,text,true,,778,188,1,1,https://api.restful-api.dev/objects/7,727,0,543
+1761231457542,173,POST - Add Objects,200,OK,Thread Group 1-1,text,true,,861,383,1,1,https://api.restful-api.dev/objects,173,0,0
