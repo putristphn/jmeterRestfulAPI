@@ -115,7 +115,7 @@ jmeter_testplan_putristphn.jmx
 
 ### 📊 HTML Dashboard Report
 
-| JMeter HTML Report |
+JMeter HTML Report 
 <img src="./screenshots/report_dashboard.png" width="800"/>
 
 💡 All samplers executed successfully with 0% error rate and a full green status (PASS).
