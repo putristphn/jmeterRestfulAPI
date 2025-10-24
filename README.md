@@ -150,8 +150,9 @@ Resolved assertion mismatches and learned to interpret HTTP header responses (`H
 ```
 jmeter -n -t jmeter_testplan_putristphn.jmx -l report/results.jtl
 jmeter -g report/results.jtl -o report/html
+open report/html/index.html
 ```
-4. Open `report/html/index.html` to view the visual dashboard.
+4. The JMeter HTML report will open automatically after generation.
 
 ---
 
