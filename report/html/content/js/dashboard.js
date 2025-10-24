@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 2, 0, 0.0, 453.0, 173, 733, 453.0, 733.0, 733.0, 733.0, 2.1621621621621623, 1.7303631756756757, 0.6028293918918919], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["POST - Add Objects", 1, 0, 0.0, 173.0, 173, 173, 173.0, 173.0, 173.0, 173.0, 5.780346820809248, 4.860233020231214, 2.161985187861272], "isController": false}, {"data": ["GET - List Objects", 1, 0, 0.0, 733.0, 733, 733, 733.0, 733.0, 733.0, 733.0, 1.364256480218281, 1.0365151773533425, 0.25046896316507505], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 2, 0, 0.0, 755.5, 469, 1042, 755.5, 1042.0, 1042.0, 1042.0, 1.3063357282821686, 1.0403484242325278, 0.36421762736773355], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["POST - Add Objects", 1, 0, 0.0, 469.0, 469, 469, 469.0, 469.0, 469.0, 469.0, 2.1321961620469083, 1.7803005063965887, 0.7974913379530917], "isController": false}, {"data": ["GET - List Objects", 1, 0, 0.0, 1042.0, 1042, 1042, 1042.0, 1042.0, 1042.0, 1042.0, 0.9596928982725528, 0.7272672744721689, 0.17619361804222647], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:

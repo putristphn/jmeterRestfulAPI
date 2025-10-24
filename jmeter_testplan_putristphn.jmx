@@ -7,6 +7,8 @@ Includes assertions for status code and JSON field.</stringProp>
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
         <collectionProp name="Arguments.arguments"/>
       </elementProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
     </TestPlan>
     <hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group">
@@ -20,7 +22,7 @@ Includes assertions for status code and JSON field.</stringProp>
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET - List Objects" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET - List Objects">
           <stringProp name="TestPlan.comments">Get a single object using GET /objects and validate id and name fields.</stringProp>
           <stringProp name="HTTPSampler.domain">api.restful-api.dev</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -34,7 +36,7 @@ Includes assertions for status code and JSON field.</stringProp>
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="GET - Response Assertion" enabled="true">
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="GET - Response Assertion">
             <collectionProp name="Asserion.test_strings">
               <stringProp name="49586">200</stringProp>
             </collectionProp>
@@ -45,7 +47,7 @@ Includes assertions for status code and JSON field.</stringProp>
             <stringProp name="TestPlan.comments">Validate get single object returns 200.</stringProp>
           </ResponseAssertion>
           <hashTree/>
-          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="GET JSON Assertion - id" enabled="true">
+          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="GET JSON Assertion - id">
             <stringProp name="JSON_PATH">$.id</stringProp>
             <stringProp name="EXPECTED_VALUE">&quot;7&quot;</stringProp>
             <boolProp name="JSONVALIDATION">true</boolProp>
@@ -55,7 +57,7 @@ Includes assertions for status code and JSON field.</stringProp>
             <stringProp name="TestPlan.comments">Validate that object id equals 7.</stringProp>
           </JSONPathAssertion>
           <hashTree/>
-          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="GET JSON Assertion - name" enabled="true">
+          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="GET JSON Assertion - name">
             <stringProp name="JSON_PATH">$.name</stringProp>
             <stringProp name="EXPECTED_VALUE">Apple MacBook Pro 16</stringProp>
             <boolProp name="JSONVALIDATION">true</boolProp>
@@ -66,7 +68,7 @@ Includes assertions for status code and JSON field.</stringProp>
           </JSONPathAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST - Add Objects" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST - Add Objects">
           <stringProp name="TestPlan.comments">Create a new object using POST /objects and validate name &amp; data.year fields.</stringProp>
           <stringProp name="HTTPSampler.domain">api.restful-api.dev</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -176,7 +178,7 @@ Includes assertions for status code and JSON field.</stringProp>
           <stringProp name="filename"></stringProp>
         </ResultCollector>
         <hashTree/>
-        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>

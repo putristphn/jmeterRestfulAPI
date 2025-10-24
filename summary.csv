@@ -5,3 +5,7 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1761231457542,173,POST - Add Objects,200,OK,Thread Group 1-1,text,true,,861,383,1,1,https://api.restful-api.dev/objects,173,0,0
 1761233037665,1465,GET - List Objects,200,OK,Thread Group 1-1,text,true,,778,188,1,1,https://api.restful-api.dev/objects/7,1459,0,836
 1761233039149,710,POST - Add Objects,200,OK,Thread Group 1-1,text,true,,857,383,1,1,https://api.restful-api.dev/objects,710,0,0
+1761283990308,472,GET - List Objects,200,OK,Thread Group 1-1,text,true,,770,188,1,1,https://api.restful-api.dev/objects/7,471,0,299
+1761283990814,174,POST - Add Objects,200,OK,Thread Group 1-1,text,true,,845,383,1,1,https://api.restful-api.dev/objects,174,0,0
+1761284023926,1042,GET - List Objects,200,OK,Thread Group 1-1,text,true,,776,188,1,1,https://api.restful-api.dev/objects/7,1033,0,541
+1761284024988,469,POST - Add Objects,200,OK,Thread Group 1-1,text,true,,855,383,1,1,https://api.restful-api.dev/objects,469,0,0
