@@ -102,14 +102,14 @@ jmeter_testplan_putristphn.jmx
 ### 📨 POST – Add Object
 | POST Request Body | POST Response Header    |
 |-------------------|-------------------------|
- <img src="./screenshots/post_body.png" width="420"/> | <img src="./screenshots/post_header.png" width="420"/>
+ <img src="./screenshots/post_body.png" width="420"/> | <img src="./screenshots/post_headers.png" width="420"/>
 
  🧩 POST request successfully created a new object and returning HTTP 200 OK with valid JSON fields.
 
 ### 📨 GET – Retrieve Object
 | GET Request Body  | GET Response Header     |
 |-------------------|-------------------------|
- <img src="./screenshots/get_body.png" width="420"/> | <img src="./screenshots/get_header.png" width="420"/>
+ <img src="./screenshots/get_body.png" width="420"/> | <img src="./screenshots/get_headers.png" width="420"/>
 
  🧠 GET request retrieved the same object, confirming data consistency and successful validation assertions.
 
