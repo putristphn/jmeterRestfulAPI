@@ -6,6 +6,7 @@ Developed as part of the **Digital Skola QA Bootcamp Batch 12** by **Putri Steph
 ---
 
 ## 📁 Project Structure
+```
 jmeterRestfulAPI/
 ├── jmeter_testplan_putristphn.jmx
 ├── report/
@@ -19,8 +20,10 @@ jmeterRestfulAPI/
 │    ├── get_header.png
 │    └── report_dashboard.png
 └── README.md
+```
 
-
+--- 
+  
 ## 🚀 Test Scenarios
 
 | Method | Endpoint | Description |
