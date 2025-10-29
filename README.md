@@ -1,7 +1,7 @@
 # 🧪 API Testing with Apache JMeter – RESTful API Demo
 
 This project demonstrates manual and automated **API testing using JMeter** against the public endpoint [https://api.restful-api.dev](https://api.restful-api.dev).
-Developed as part of the **Digital Skola QA Bootcamp Batch 12** by **Putri Stephanie Lesilolo.**
+Developed as part of the **Digital Skola QA Bootcamp Batch 12 - Session 8 (Load Test)** by **Putri Stephanie Lesilolo**.
 
 ---
 
